@@ -81,7 +81,7 @@ Domain expansion draws on the full RuVector capability stack. Each domain contri
 |--------|----------------|----------------|----------------|
 | **Genomics** | [rvDNA](../../examples/dna/) | Variant calling, k-mer HNSW embeddings, 64-dim SNP risk profiles | Sparse structured features seed any domain needing compact representations |
 | **Algorithmic Trading** | [neural-trader](../../examples/neural-trader/) | Kelly sizing, LSTM-Transformer prediction, DRL portfolio ensembles | Rich reward signals (Sharpe, drawdown) map directly to evaluation scoring |
-| **Quantum Computing** | [ruQu](../../crates/ruQu/) | Coherence gating, circuit optimization, noise drift detection | Verification methodology — "is it safe to act?" — inspired TransferVerification |
+| **Quantum Computing** | [ruQu](../ruQu/) | Coherence gating, circuit optimization, noise drift detection | Verification methodology — "is it safe to act?" — inspired TransferVerification |
 | **Neuromorphic AI** | [spiking-neural](../../examples/meta-cognition-spiking-neural-network/) | STDP learning, meta-plasticity, hyperbolic attention | Proves cross-domain acceleration is biologically real and measurable |
 | **Graph Intelligence** | [graph-transformer](../ruvector-graph-transformer/) | Proof-gated mutation, Nash equilibrium attention, causal Granger layers | Formal proofs before committing changes — same pattern as transfer acceptance |
 | **Nervous Systems** | [nervous-system](../ruvector-nervous-system/) | One-shot BTSP learning, hyperdimensional computing, circadian duty cycles | Cold-start acceleration — learn from single examples, like transfer priors |
@@ -107,7 +107,7 @@ Domain expansion draws on the full RuVector capability stack. Each domain contri
      │  profiles   │ │ rewards  │ │  gates      │
      └──────┬──────┘ └────┬─────┘ └──────┬──────┘
             │              │              │
-            └──────┬───────┘──────┬───────┘
+            └──────┬───────┴──────┬───────┘
                    │              │
             ┌──────▼──────┐ ┌────▼──────────┐
             │  Shared     │ │  Transfer     │
